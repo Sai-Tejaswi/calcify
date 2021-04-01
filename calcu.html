@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="calcu.css">   
+<meta charset="utf-8">    
+<title>Javascript Calculator</title>
+<script src="calcu.js"></script>    
+</head>
+<body>
+<header><h1>Javascript Calculator</h1></header>
+
+
+    <div class="calc1">
+    <table>
+        <tr><td colspan="5"><input type="text" value="" id="result" class="displaybar"></td></tr>
+        <tr>
+        <td><input type="button" class="greybutton" value="C" onclick="clearVal()"></td>
+        <td><input type="button" value="<--" class="greybutton" onclick="deleteChar()"></td>
+        <td><input type="button" value="=" class="greybutton" onclick="compute()"></td>
+        <td><input type="button" value="π" class="orangebutton" onclick="multiPY()"></td>
+        <td><input type="button" value="%" class="pinkbutton" onclick="perCent()"></td>    
+        </tr>
+        <tr>
+        <td><input type="button" value="7" class="blackbutton"  onclick=enterVal(value)></td>
+        <td><input type="button" value="8" class="blackbutton" onclick=enterVal(value)></td>
+        <td><input type="button"  value="9" class="blackbutton" onclick=enterVal(value)></td>
+        <td><input type="button" value="x^" class="orangebutton" onclick=expoFn()></td>
+        <td><input type="button" value="/" class="pinkbutton" onclick=enterVal(value)></td>    
+        </tr>        <tr>
+        <td><input type="button"  value="4" class="blackbutton" onclick=enterVal(value)></td>
+        <td><input type="button"  value="5" class="blackbutton" onclick=enterVal(value)></td>
+        <td><input type="button"  value="6" class="blackbutton" onclick=enterVal(value)></td>
+        <td><input type="button"  value="ln" class="orangebutton" onclick=lnFn()></td>
+        <td><input type="button"  value="*" class="pinkbutton" onclick=enterVal(value)></td>    
+        </tr>        <tr>
+        <td><input type="button"  value="1" class="blackbutton" onclick=enterVal(value)></td>
+        <td><input type="button"  value="2" class="blackbutton" onclick=enterVal(value)></td>
+        <td><input type="button"  value="3" class="blackbutton" onclick=enterVal(value)></td>
+        <td><input type="button"  value="√" class="orangebutton" onclick="sqrtFn()"></td>
+        <td><input type="button"  value="-" class="pinkbutton" onclick=enterVal(value)></td>    
+        </tr>        <tr>
+        <td><input type="button"  value="±" class="pinkbutton" onclick="changeSign()"></td>
+        <td><input type="button"  value="0" class="blackbutton" onclick=enterVal(value)></td>
+        <td><input type="button" value="." class="pinkbutton" onclick="enterVal(value)"></td>
+        <td><input type="button" value="x2" class="orangebutton" onclick="squareFn()"></td>
+        <td><input type="button" value="+" class="pinkbutton" onclick=enterVal(value)></td>    
+        </tr>        <tr>
+        <td><input type="button" value="(" class="pinkbutton" onclick="enterVal(value)"></td>
+        <td><input type="button" value=")" class="pinkbutton" onclick="enterVal(value)"></td>
+        <td><input type="button" value="cos" class="pinkbutton" onclick="cosVal()"></td>
+        <td><input type="button" value="sin" class="pinkbutton" onclick="sinVal()"></td>
+        <td><input type="button" value="tan" class="pinkbutton" onclick="tanVal()"></td>    
+        </tr>        
+        
+    </table>    
+</div></main>  
+</body>
+</html>
